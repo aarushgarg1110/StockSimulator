@@ -1,0 +1,82 @@
+Listing which features of this program work and are complete:
+
+Part 3: GUI
+
+ -Functional and user-friendly GUI that supports the required features from directions:
+  -Create a Portfolio
+
+  -Save a Portfolio
+
+  -Load a Portfolio
+
+  -Buy a Stock
+
+  -Sell a stock
+
+  -get value of portfolio
+
+  -get composition of portfolio
+
+New version of program (Part 2):
+
+ -Allow a user to examine the gain or loss of a stock over a specified period.
+
+ -Allow a user to examine the x-day moving average of a stock for a specified date
+  and a specified value of x.
+
+ -Allow a user to determine which days are x-day crossovers for a specified stock
+  over a specified date range and a specified value of x.
+
+ -Allow a user to create one or more portfolios with shares of one or more stock,
+  and find the value of a certain portfolio on a specific date.
+
+ -Take in Stock data from AlphaVantage API
+ -Take in a file specified by the user for stock data / program does not require internet this way
+
+ -Locally cache previously queried stocks to reduce dependency on internet and speed up results
+  Also reduces frequency of overloading the API query limit
+
+ -Purchase a specific number of shares of a specific stock on a specified date,
+  and add them to the portfolio
+
+ -Sell a specific number of shares of a specific stock on a specified date from a given portfolio
+
+ -Determine the composition of a portfolio at a specific date.
+  The composition must include (a) the list of stocks and (b) the number of shares of each stock
+
+ -Determine the value of a portfolio on a specific date (to be exact, the end of that day).
+  The value for a portfolio before the date of its first purchase would be 0, since each stock
+  in the portfolio now was purchased at a specific point in time.
+
+ -The distribution of value of a portfolio on a specific date (to be exact, the end of that day).
+  The distribution of value should include (a) the stock itself (b) the value of each individual
+  stock in the portfolio. The sum of the values in (b) should equal to the value of that portfolio
+  on that date.
+
+ -Persist a portfolio so that it can be saved and loaded (i.e. save to and retrieve from files)
+
+ -Rebalance a portfolio according to given weights and date.
+
+ -Get a text-view bar chart of the performance of a portfolio over time
+
+ -Get a text-view bar chart of the performance of a stock over time
+
+
+Old Version of program (Part 1):
+
+ -Allow a user to examine the gain or loss of a stock over a specified period.
+
+ -Allow a user to examine the x-day moving average of a stock for a specified date
+  and a specified value of x.
+
+ -Allow a user to determine which days are x-day crossovers for a specified stock
+  over a specified date range and a specified value of x.
+
+ -Allow a user to create one or more portfolios with shares of one or more stock,
+  and find the value of a certain portfolio on a specific date.
+
+ -Take in Stock data from AlphaVantage API
+ -Take in a file specified by the user for stock data / program does not require internet this way
+
+ -Locally cache previously queried stocks to reduce dependency on internet and speed up results
+  Also reduces frequency of overloading the API query limit

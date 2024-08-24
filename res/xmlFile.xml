@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Portfolio>
+    <transaction>
+        <ticker>GOOG</ticker>
+        <quantity>30.0</quantity>
+        <date>2023-05-29</date>
+        <type>Buy</type>
+    </transaction>
+    <transaction>
+        <ticker>AMZN</ticker>
+        <quantity>20.0</quantity>
+        <date>2023-06-05</date>
+        <type>Buy</type>
+    </transaction>
+    <transaction>
+        <ticker>GOOG</ticker>
+        <quantity>5.0</quantity>
+        <date>2023-06-10</date>
+        <type>Sell</type>
+    </transaction>
+</Portfolio>
